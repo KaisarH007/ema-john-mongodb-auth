@@ -17,7 +17,7 @@ const Shipping = () => {
     data.order = saveCart;
     // console.log(data);
 
-    fetch("http://localhost:5000/orders", {
+    fetch("https://immense-eyrie-74374.herokuapp.com/orders", {
       method: "POST",
       headers: {
         "content-type": "application/json",
